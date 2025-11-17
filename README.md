@@ -30,17 +30,17 @@ source:
   service_account: 'api-account@1234567890.iam.panserviceaccount.com'
   api_key: 'your-api-key-here'
   tsg_id: '1234567890'
-  name: 'Source-Tenant'
+  name: 'Dev'
 
 destinations:
   - service_account: 'api-account@0987654321.iam.panserviceaccount.com'
     api_key: 'your-api-key-here'
     tsg_id: '0987654321'
-    name: 'Dest-Tenant-1'
+    name: 'Staging'
   - service_account: 'api-account@0987654321.iam.panserviceaccount.com'
     api_key: 'your-api-key-here'
     tsg_id: '0987654321'
-    name: 'Dest-Tenant-2'
+    name: 'Production'
 ```
 
 **Fields**: `service_account` (service account), `api_key` (API key), `tsg_id` (Tenant Service Group ID), `name` (friendly name)
