@@ -2,6 +2,8 @@
 
 A Python tool for synchronizing Data Loss Prevention (DLP) configuration between Palo Alto Networks Prisma Access tenants. Maintains consistent DLP policies across multiple environments by replicating custom data patterns and data profiles.
 
+![quick_demo](https://github.com/amimran01/pa-dlp-config-sync/quick_demo.gif)
+
 ## Features
 
 - **Two-Stage Sync**: Data patterns first, then data profiles
